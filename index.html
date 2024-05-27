@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jumble word</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="words.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!--<img src="https://i.pinimg.com/originals/a2/6b/0c/a26b0c89c4bf869ae7a903bfd9d63617.jpg " width=100%> -->
+    <div class="container">
+        <h2>Jumble Word</h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+                <p class="score">Score: 0</p> <!-- Add this line for the score -->
+            </div>
+            <input type="text" spellcheck="false" placeholder="Enter a valid word">
+            <div class="buttons">
+                <button class="refresh-word">Refresh Word</button>
+                <button class="check-word">Check Word</button>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
